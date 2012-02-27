@@ -1,0 +1,15 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  FName: MyString
+  LName: MyString
+  Email: MyString
+  CellNumber: MyString
+  DOB: 2012-02-27 16:33:14
+
+two:
+  FName: MyString
+  LName: MyString
+  Email: MyString
+  CellNumber: MyString
+  DOB: 2012-02-27 16:33:14

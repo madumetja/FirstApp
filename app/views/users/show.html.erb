@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Fname:</b>
+  <%= @user.FName %>
+</p>
+
+<p>
+  <b>Lname:</b>
+  <%= @user.LName %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%= @user.Email %>
+</p>
+
+<p>
+  <b>Cellnumber:</b>
+  <%= @user.CellNumber %>
+</p>
+
+<p>
+  <b>Dob:</b>
+  <%= @user.DOB %>
+</p>
+
+
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>
